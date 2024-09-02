@@ -1,0 +1,265 @@
+/* Hero */
+.refundnow-hero .refundnow-hero-background {
+  padding: 60px 0 44px 0;
+  border-bottom: 1px solid #333740;
+}
+
+@media screen and (min-width: 992px) {
+  .refundnow-hero .refundnow-hero-background {
+    padding: 70px 0;
+    background: url(../../media/woman.jpg) center bottom no-repeat;
+    height: 684px;
+  }
+}
+
+.refundnow-hero .product-features {
+  color: black;
+}
+
+.refundnow-hero img {
+  margin-bottom: 20px;
+}
+
+.refundnow-hero p {
+  font-size: 22px;
+  line-height: 140%;
+}
+
+.refundnow-hero p b {
+  font-weight: 700;
+}
+
+.refundnow-hero .learnmore {
+  margin: 0 0 32px 0;
+}
+
+@media screen and (min-width: 992px) {
+  .refundnow-hero .learnmore {
+    width: 50%;
+  }
+}
+
+.refundnow-hero .learnmore a {
+  margin: 0;
+}
+
+.refundnow-hero .ssseals {
+  margin: 0;
+  text-align: left;
+}
+
+.refundnow-hero .ssseals:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+}
+
+.refundnow-hero .ssseals div {
+  float: left;
+  margin: 0 0 0 38px;
+}
+
+.refundnow-hero .ssseals div:first-of-type {
+  margin: 0;
+}
+
+.refundnow-hero .ssseals div.trustwave {
+  margin: 0 0 0 24px;
+}
+
+/* Faster Money in Two Easy Steps */
+.refundnow-steps {
+  padding: 33px 0 53px 0;
+}
+
+@media screen and (min-width: 680px) {
+  .refundnow-steps {
+    padding: 33px 0;
+  }
+}
+
+.refundnow-steps .row {
+  overflow: visible;
+}
+
+@media screen and (min-width: 992px) {
+  .refundnow-steps .col-xs-12 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+  }
+}
+
+.refundnow-steps h2 {
+  margin-bottom: 36px;
+  font-size: 33px;
+}
+
+@media screen and (min-width: 680px) {
+  .refundnow-steps h2 {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .refundnow-steps h2 {
+    width: 35%;
+    margin: 0;
+    padding: 0 80px 0 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .refundnow-steps h2 {
+    width: 45%;
+    padding: 0 20px 0 0;
+  }
+}
+
+.refundnow-steps ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 680px) {
+  .refundnow-steps ol {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .refundnow-steps ol {
+    width: 65%;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .refundnow-steps ol {
+    width: 55%;
+  }
+}
+
+.refundnow-steps li {
+  counter-increment: step-counter;
+  position: relative;
+  margin: 0 0 50px 0;
+  padding: 0 20px 0 64px;
+  font-size: 22px;
+}
+
+.refundnow-steps li:last-of-type {
+  margin: 0;
+}
+
+@media screen and (min-width: 680px) {
+  .refundnow-steps li {
+    width: 50%;
+    margin: 0;
+  }
+}
+
+.refundnow-steps li:before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  content: counter(step-counter);
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  margin: -27px 5px 0 0;
+  font-size: 32px;
+  background-color: #d82631;
+  color: white;
+  padding: 14px 0 0 0;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1;
+}
+
+/* Benefits */
+#refundnow-benefits {
+  color: white;
+  background: #333740;
+}
+
+#refundnow-benefits .refundnow-benefit-two .icn {
+  background-position: -83px 0;
+}
+
+#refundnow-benefits .refundnow-benefit-three .icn {
+  background-position: -166px 0;
+}
+
+#refundnow-benefits .icon {
+  margin: 0 auto 26px auto;
+}
+
+#refundnow-benefits .icn {
+  display: block;
+  width: 83px;
+  height: 74px;
+  color: white;
+  background: url(../../media/benefits-icons.png) left top no-repeat;
+}
+
+/* Frequently Asked Questions */
+#refundnow-frequently-asked-questions header {
+  margin: 0;
+}
+
+#refundnow-frequently-asked-questions h3 {
+  font-size: 36px;
+}
+
+#refundnow-frequently-asked-questions h4 {
+  margin-top: 24px;
+}
+
+/* Legal */
+.refundnow-legal {
+  width: 100%;
+  clear: both;
+  margin: 34px 0 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  .refundnow-legal {
+    margin: 56px 0 0 0;
+  }
+}
+
+.refundnow-legal p {
+  margin: 0 0 10px 0;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.refundnow-legal p:last-of-type {
+  margin: 0;
+}
